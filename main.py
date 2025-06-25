@@ -4,7 +4,7 @@ total = 0
 
 while True: 
     food = input("Enter food to buy or press q to quit: ")
-    if food.lower == 'q':
+    if food.lower() == 'q':
         break
     else:
         price = float(input(f"Enter the price of the {food}: R"))
